@@ -7,11 +7,12 @@
 //
 
 #import "AppDelegate.h"
-
+#import <CheckMate/CheckMate.h>
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [CheckMate initializeFramework:@"f2aeffd72691d96eb50a3125882ebda3"];
     // Override point for customization after application launch.
     return YES;
 }
